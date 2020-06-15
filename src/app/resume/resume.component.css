@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.icon_img {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+#header, .sections {
+	padding-bottom: 10vw;
+}
+.white {
+	color: black;
+}
+.center {
+	text-align: center;
+}
+.caps {
+	text-transform: uppercase;
+}
+.nav_a {
+	margin-right: 3vw;
+}
+.name {
+	font: 8vw 'Pacifico';
+	font-style: oblique;
+	font-weight: 11px;
+}
+.profession {
+	font: 2.5vw 'Roboto';
+}
+.flexi {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.skill_icon_img {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+}
+.skill_div {
+	margin: 20px;
+	box-shadow: 3px 3px 10px rgba(192,192,192,0.5);
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.skill_div_outer {
+	width: 75%;
+	margin: auto;
+}
+.section_head {
+	font: 6vw 'Lobster';
+}
+.sections {
+	padding-top: 10vw;
+}
+.button_div {
+	margin-top: 3vw;
+}
+.button {
+	width: 15rem;
+	border: 3px solid #fff;
+}
+.project_div {
+	border-radius: 1px;
+	width: 17rem;
+	padding: 0;
+}
+.project_img {
+	width: 16.4rem;
+	height: 12rem;
+}
+#footer {
+	padding: 5vw 0;
+}
+.icons_div {
+	border-top: 5px solid #42C0FB;
+	border-bottom: 5px solid #42C0FB;
+}
+.others_card {
+	display: grid;
+	grid-template-columns: 10rem calc(100% - 10rem - 2rem);
+	grid-column-gap: 2rem;
+}
+.blue_border {
+	border: 5px solid rgba(66,192,251,1);
+}
+.others_img {
+	width: 10rem;
+	height: 6rem;
+}
